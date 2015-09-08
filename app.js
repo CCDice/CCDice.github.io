@@ -4,13 +4,13 @@
 
 var config = {
   // - Your app's id on moneypot.com
-  app_id: 18,                             // <----------------------------- EDIT ME!
+  app_id: 596,                             // <----------------------------- EDIT ME!
   // - Displayed in the navbar
-  app_name: 'Untitled Dice',
+  app_name: 'CC Dice',
   // - For your faucet to work, you must register your site at Recaptcha
   // - https://www.google.com/recaptcha/intro/index.html
-  recaptcha_sitekey: '6LfI_QUTAAAAACrjjuzmLw0Cjx9uABxb8uguLbph',  // <----- EDIT ME!
-  redirect_uri: 'https://untitled-dice.github.io',
+  recaptcha_sitekey: '6LeefwwTAAAAAAgllXTXnSqW7emQqq3ffUsSYgJn',  // <----- EDIT ME!
+  redirect_uri: 'https://ccdice.net',
   mp_browser_uri: 'https://www.moneypot.com',
   mp_api_uri: 'https://api.moneypot.com',
   chat_uri: '//socket.moneypot.com',
@@ -26,6 +26,7 @@ var config = {
   // - The amount of bets to show on screen in each tab
   bet_buffer_size: 25
 };
+
 
 ////////////////////////////////////////////////////////////
 // You shouldn't have to edit anything below this line
